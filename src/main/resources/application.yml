@@ -1,0 +1,9 @@
+server:
+  port: 8061
+
+
+spring:
+  application:
+    name: admin-system
+  profiles:
+    active: enc
