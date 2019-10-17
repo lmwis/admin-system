@@ -48,7 +48,7 @@ public class MapperTest {
         admin.setUsername("lmwis");
         admin.setPassword(passwordEncoder.encode("admin"));
         admin.setAuthorities("admin");
-        adminMapper.insert(admin);
+//        adminMapper.insert(admin);
     }
 
 }

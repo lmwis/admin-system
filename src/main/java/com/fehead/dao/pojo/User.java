@@ -23,7 +23,7 @@ public class User {
     private String nickname;
 
     @TableField("school_id")
-    private int schoolId;
+    private long schoolId;
 
     private String tel;
 
@@ -53,11 +53,11 @@ public class User {
         this.nickname = nickname;
     }
 
-    public int getSchoolId() {
+    public long getSchoolId() {
         return schoolId;
     }
 
-    public void setSchoolId(int schoolId) {
+    public void setSchoolId(long schoolId) {
         this.schoolId = schoolId;
     }
 
