@@ -7,3 +7,9 @@ spring:
     name: admin-system
   profiles:
     active: enc
+#  datasource:
+#    url:
+#    username:
+#    password:
+#    name:
+#    type:

@@ -8,12 +8,10 @@ import com.fehead.response.CommonReturnType;
 import com.fehead.response.FeheadResponse;
 import com.fehead.response.MetronicDatatableType;
 import com.fehead.response.MetronicMeta;
-import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
-import org.springframework.social.connect.web.SessionStrategy;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
@@ -127,16 +125,16 @@ public class UserController extends BaseController{
         return CommonReturnType.create(i);
     }
 
-    private MetronicMeta generatorMeta(Pageable pageable,Integer totalPage,Integer size){
-        MetronicMeta meta = new MetronicMeta();
-        meta.setPage(pageable.getPageNumber());
-        meta.setPerpage(pageable.getPageSize());
-        meta.setSort("asc");
-        meta.setTotal(size);
-        meta.setPages(totalPage);
-        meta.setField("id");
-        return meta;
-    }
+//    private MetronicMeta generatorMeta(Pageable pageable,Integer totalPage,Integer size){
+//        MetronicMeta meta = new MetronicMeta();
+//        meta.setPage(pageable.getPageNumber());
+//        meta.setPerpage(pageable.getPageSize());
+//        meta.setSort("asc");
+//        meta.setTotal(size);
+//        meta.setPages(totalPage);
+//        meta.setField("id");
+//        return meta;
+//    }
 
 
 }
