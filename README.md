@@ -56,7 +56,7 @@ REST风格接口
 ```
 docker run 
 -d 
--p 8888:80 #端口映射
+-p 8061:8061 #端口映射，项目默认端口8061
 --name admin_system_java_${version} #容器名
 lmwis/course_except #镜像名(不加tag默认为lastest)
 ```
