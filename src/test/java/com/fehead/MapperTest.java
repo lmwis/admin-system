@@ -1,9 +1,8 @@
 package com.fehead;
 
-import com.fehead.dao.AdminMapper;
-import com.fehead.dao.UserMapper;
-import com.fehead.dao.pojo.Admin;
-import com.fehead.dao.pojo.User;
+import com.fehead.open.admin.dao.AdminMapper;
+import com.fehead.open.admin.dao.UserMapper;
+import com.fehead.open.admin.dao.pojo.Admin;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,9 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
-import java.util.function.Predicate;
 
 /**
  * @Description:

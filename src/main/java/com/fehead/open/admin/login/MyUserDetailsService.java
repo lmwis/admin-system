@@ -1,8 +1,8 @@
-package com.fehead.login;
+package com.fehead.open.admin.login;
 
-import com.fehead.dao.AdminMapper;
-import com.fehead.dao.PasswordMapper;
-import com.fehead.dao.pojo.Admin;
+import com.fehead.open.admin.dao.AdminMapper;
+import com.fehead.open.admin.dao.PasswordMapper;
+import com.fehead.open.admin.dao.pojo.Admin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;

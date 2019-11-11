@@ -1,7 +1,7 @@
-package com.fehead.dao;
+package com.fehead.open.admin.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.fehead.dao.pojo.Admin;
+import com.fehead.open.admin.dao.pojo.Admin;
 import org.apache.ibatis.annotations.Select;
 
 /**

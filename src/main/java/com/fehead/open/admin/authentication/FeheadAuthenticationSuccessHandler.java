@@ -1,4 +1,4 @@
-package com.fehead.authentication;
+package com.fehead.open.admin.authentication;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;

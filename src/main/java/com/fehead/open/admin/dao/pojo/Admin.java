@@ -1,4 +1,4 @@
-package com.fehead.dao.pojo;
+package com.fehead.open.admin.dao.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;

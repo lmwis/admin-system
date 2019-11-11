@@ -1,6 +1,6 @@
-package com.fehead.config;
+package com.fehead.open.admin.config;
 
-import com.fehead.authentication.JWTAuthenticationFilter;
+import com.fehead.open.admin.authentication.JWTAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

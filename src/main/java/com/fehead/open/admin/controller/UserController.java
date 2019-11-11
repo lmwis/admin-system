@@ -1,13 +1,13 @@
-package com.fehead.controller;
+package com.fehead.open.admin.controller;
 
-import com.fehead.dao.UserMapper;
-import com.fehead.dao.pojo.User;
-import com.fehead.error.BusinessException;
-import com.fehead.error.EmBusinessError;
-import com.fehead.response.CommonReturnType;
-import com.fehead.response.FeheadResponse;
-import com.fehead.response.MetronicDatatableType;
-import com.fehead.response.MetronicMeta;
+import com.fehead.open.admin.dao.UserMapper;
+import com.fehead.open.admin.dao.pojo.User;
+import com.fehead.lang.controller.BaseController;
+import com.fehead.lang.error.BusinessException;
+import com.fehead.lang.error.EmBusinessError;
+import com.fehead.lang.response.CommonReturnType;
+import com.fehead.lang.response.FeheadResponse;
+import com.fehead.lang.response.MetronicDatatableType;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
@@ -26,7 +26,7 @@ import java.util.List;
  */
 @RestController("UserController")
 @CrossOrigin(allowedHeaders="*",allowCredentials = "true")
-public class UserController extends BaseController{
+public class UserController extends BaseController {
 
     @Autowired
     UserMapper userMapper;

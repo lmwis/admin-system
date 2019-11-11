@@ -1,4 +1,4 @@
-package com.fehead.authentication;
+package com.fehead.open.admin.authentication;
 
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.AuthenticationManager;

@@ -1,4 +1,4 @@
-package com.fehead.dao;
+package com.fehead.open.admin.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 

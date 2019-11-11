@@ -1,4 +1,4 @@
-package com.fehead;
+package com.fehead.open.admin;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-@MapperScan("com.fehead.dao")
+@MapperScan("com.fehead.open.admin.dao")
 public class AdminSystemApp
 {
     public static void main( String[] args )
